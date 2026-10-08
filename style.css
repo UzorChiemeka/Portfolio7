@@ -2,6 +2,11 @@ body {
   background-color: black;
   margin: 0px;
 }
+.dropdown{
+  background-color: grey;
+  color: white;
+  padding: 10px 15px;
+}
 #menu-toggle {
   display: none;
   background-color: lightblue;
