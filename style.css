@@ -3,6 +3,18 @@ body {
   background-size: cover;
   margin: 0px;
 }
+#menu-toggle {
+  display: none;
+  background-color: lightblue;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#menu-toggle .a {
+  display: block;
+  margin: 10px 0;
+}
 #header {
   color: black;
   text-align: center;
