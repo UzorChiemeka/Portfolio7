@@ -1,19 +1,26 @@
 body {
   background-color: black;
+  background-size: cover;
   margin: 0px;
 }
-
+#menu-toggle {
+  display: none;
+  background-color: lightblue;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#menu-toggle .a {
+  display: block;
+  margin: 10px 0;
+}
 #header {
   color: black;
   text-align: center;
-  width: 100px;
-}
-#my-profile{
-  height: 30px;
-  width: 30px
 }
 img {
-  float: center;
+  float: left;
   border: 2px solid lightblue;
 }
 #portfolio {
@@ -21,8 +28,9 @@ img {
 }
 .navi ul {
   list-style-type: none;
-
-  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   margin: 0px;
   overflow: hidden;
 }
@@ -32,7 +40,8 @@ img {
   font-size: larger;
   display: inline-block;
   text-align: center;
-  padding: 15px 15px;
+  padding: 8px 15px;
+  horizontal-align: left;
 }
 .navi a:hover {
   color: aqua;
@@ -42,18 +51,12 @@ img {
 h1 {
   color: antiquewhite;
 }
-h3{
-color: antiquewhite;  
-}
 p {
   font-size: larger;
   border: 2px solid white;
   border-radius: 20px;
   padding: 10px;
   color: antiquewhite;
-  hover: {
-    color: aqua;
-  }
 }
 h2 {
   color: antiquewhite;
