@@ -2,23 +2,7 @@ body {
   background-color: black;
   margin: 0px;
 }
-.dropdown{
-  background-color: grey;
-  color: white;
-  padding: 10px 15px;
-}
-#menu-toggle {
-  display: none;
-  background-color: lightblue;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-#menu-toggle .a {
-  display: block;
-  margin: 10px 0;
-}
+
 #header {
   color: black;
   text-align: center;
