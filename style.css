@@ -6,6 +6,7 @@ body {
 #header {
   color: black;
   text-align: center;
+  width: 50px;
 }
 img {
   float: left;
