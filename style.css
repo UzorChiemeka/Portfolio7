@@ -1,11 +1,11 @@
 body {
-  background-color: black;
+  background-color: white;
   background-size: cover;
   margin: 0px;
 }
 #menu-toggle {
   display: none;
-  background-color: lightblue;
+  background-color: rgb(0, 0, 0);
   color: black;
   border: none;
   padding: 10px 20px;
@@ -16,12 +16,22 @@ body {
   margin: 10px 0;
 }
 #header {
-  color: black;
+  background-color: grey;
+  color: rgb(15, 15, 15);
   text-align: center;
+  padding: 1px;
 }
-img {
+main {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.navibar {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+#profile {
   float: left;
-  border: 2px solid lightblue;
+  border: 2px solid rgb(248, 248, 248);
 }
 #portfolio {
   text-align: center;
@@ -36,7 +46,7 @@ img {
 }
 .navi a {
   text-decoration: none;
-  color: antiquewhite;
+  color: black;
   font-size: larger;
   display: inline-block;
   text-align: center;
@@ -49,80 +59,97 @@ img {
 .navi li {
 }
 h1 {
-  color: antiquewhite;
+  color: black;
 }
 p {
   font-size: larger;
-  border: 2px solid white;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
-  color: antiquewhite;
+  color: black;
 }
 h2 {
-  color: antiquewhite;
+  color: black;
+}
+
+h3 {
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px;
 }
 img {
+  border-radius: 20px;
+  height: 90px;
+  width: 100px;
+  position: relative;
 }
 #home {
-  color: white;
-  border: 2px solid white;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 
 #homep {
   font-size: large;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #about {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #skill {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #projects {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #ed {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #achieve {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #contact {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
 #img1 {
-  background-color: white;
+  background-color: rgb(253, 152, 152);
 }
 video {
   width: 400px;
   height: 300px;
 }
 #book {
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid rgb(8, 8, 8);
   border-radius: 20px;
   padding: 10px;
+}
+footer {
+  background-color: grey;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  padding: 25px;
 }
