@@ -44,7 +44,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 0px;
+  margin: 10px;
   overflow: hidden;
 }
 .navi a {
