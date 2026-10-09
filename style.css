@@ -68,6 +68,7 @@ main {
 }
 h1 {
   color: black;
+   text-align: center;
 }
 p {
   font-size: larger;
@@ -75,9 +76,11 @@ p {
   border-radius: 20px;
   padding: 10px;
   color: black;
+   text-align: center;
 }
 h2 {
   color: black;
+   text-align: center;
 }
 
 h3 {
@@ -85,6 +88,7 @@ h3 {
   border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
+   text-align: center;
 }
 img {
   border-radius: 20px;
