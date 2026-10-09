@@ -55,6 +55,7 @@ main {
   text-align: left;
   padding: 8px 15px;
   horizontal-align: left;
+  margin: 10px
 }
 .navi a:hover {
   color: aqua;
